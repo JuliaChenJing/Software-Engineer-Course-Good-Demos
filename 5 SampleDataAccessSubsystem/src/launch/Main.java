@@ -10,11 +10,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		try {
-			
+			System.out.println("1   doInsert--------------------");
 			doInsert();
-			
-			//doUpdate();
-			//doDelete();
+			System.out.println("2   doIUpdate--------------------");
+			doUpdate();
+			System.out.println("3  doDelete--------------------");
+			doDelete();
+			System.out.println("4  doRead--------------------");
 			doRead();
 			
 		} catch(DatabaseException e) {
@@ -30,7 +32,7 @@ public class Main {
 	}
 	private static void doInsert() throws DatabaseException {
 		DbClassAddress dbclass = new DbClassAddress();
-		int result = dbclass.insertNewAddress("1", "3 Fourth Day St.", "Thompson", "IA", "54551");
+		int result = dbclass.insertNewAddress("1", "3 Fourth Day St.", "Thompson", "IA", "54552");
 		System.out.println("Address id for new address: " + result);
 		
 	}

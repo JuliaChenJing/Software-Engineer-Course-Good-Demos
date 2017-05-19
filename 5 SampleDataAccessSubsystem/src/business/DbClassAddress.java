@@ -9,16 +9,18 @@ import java.util.List;
 import middleware.dataaccess.DataAccessSubsystemFacade;
 import middleware.exceptions.DatabaseException;
 import middleware.externalinterfaces.DbClass;
-
+//stores the transaction between Address and Dbclass
 public class DbClassAddress implements DbClass {
+	
 	enum QueryType {READ, INSERT, UPDATE, DELETE};
 	QueryType queryType;
 	List<Address> addresses = new ArrayList<>(); 
+	
 	String readQuery = "SELECT street, city, state, zip FROM altaddress WHERE custid=?";
 	String insertQuery = "INSERT into altaddress " +
     		"(custid,street,city,state,zip, isship, isbill) " +
     		"VALUES(?, ?, ?, ?, ?, ?, ?)";
-	String updateQuery = "UPDATE ALTADDRESS SET zip = ? WHERE street = 'New One'";
+	String updateQuery = "UPDATE ALTADDRESS SET zip = ? WHERE street = '1 MAIN'";
 	String deleteQuery = "DELETE from ALTADDRESS where zip = ?";
 	
 	Object[] readParams = null;
@@ -29,6 +31,7 @@ public class DbClassAddress implements DbClass {
 	int[] updateParamTypes = null;
 	Object[] deleteParams = null;
 	int[] deleteParamTypes = null;
+	
 	@SuppressWarnings("unused")
 	private static final String DB_URL_PROD = "jdbc:mysql:///ProductsDb";
 	private static final String DB_URL_ACCT = "jdbc:mysql:///AccountsDb";
@@ -43,6 +46,7 @@ public class DbClassAddress implements DbClass {
 		dss.releaseConnection();
 		return addresses;
 	}
+	
 	public int insertNewAddress(String custId, String str, String city, String st, String zip) 
 			throws DatabaseException {
 		queryType = QueryType.INSERT;
