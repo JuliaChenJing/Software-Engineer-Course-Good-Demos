@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 public class ReadCustomer {
-	private String query = "SELECT * FROM Customer WHERE fname = ?";
+	private String query = "SELECT * FROM Customer WHERE fname = '%s'";
 	private String query2 = "SELECT * FROM Customer";
 	private static final Logger LOG = Logger.getLogger(ReadCustomer.class.getName());
 	

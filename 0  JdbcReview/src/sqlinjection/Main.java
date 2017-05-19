@@ -13,10 +13,10 @@ import connect.ConnectManagerMySql;
 public class Main {
 	static final String userInput = " ' or '1'='1";
 	static final String userInput_2 = "Jim";
+	
 	public static void main(String[] args) {
 		withoutPrepared();
 		usingPrepared();
-		
 	}
 	
 	private static void withoutPrepared() {
@@ -60,6 +60,7 @@ public class Main {
 			stmt.setString(1, userInput_2);
 			System.out.println(stmt.toString());
 			ResultSet rs = stmt.executeQuery();
+			 System.out.println("3 "+query);
 			System.out.println("\nResult from Database:\n");
 			while(rs.next()) {
 				System.out.println(rs.getString("ssn"));
