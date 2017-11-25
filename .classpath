@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="0  JdbcReview/src"/>
+	<classpathentry kind="src" path="1 GuiShellFXDbSoln/src"/>
+	<classpathentry kind="src" path="2. 5 Exercise_Callback_Solution/src"/>
+	<classpathentry kind="src" path="3 Exercise_RefactorControl_Soln/src"/>
+	<classpathentry kind="src" path="5 SampleDataAccessSubsystem/src"/>
+	<classpathentry kind="src" path="5.5  Exercise_DataAccessSubsystem/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="0  JdbcReview/bin"/>
+</classpath>

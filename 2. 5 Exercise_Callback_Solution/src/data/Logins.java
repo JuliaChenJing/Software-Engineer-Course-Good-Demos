@@ -5,7 +5,7 @@ import java.util.Properties;
 public class Logins {
 	private static Properties props = new Properties();
 	static {
-		//load usernames and passwords
+		//load user names and passwords
 		props.setProperty("Joe", "Joe");
 		props.setProperty("Alice", "Alice");
 	}
