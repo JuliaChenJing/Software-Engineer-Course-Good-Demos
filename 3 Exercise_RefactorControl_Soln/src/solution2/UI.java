@@ -20,7 +20,7 @@ import javafx.stage.Stage;
 /**
  * In this solution, Control is not a singleton
  * and is loosely coupled with UI. Control obtains
- * the value of the UI textfield with a getter that
+ * the value of the UI text-field with a getter that
  * returns a String (not a UI component) and Control
  * sets the value of the messageBar in UI using
  * a String setter. This looser coupling makes it
