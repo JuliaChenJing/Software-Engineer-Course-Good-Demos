@@ -10,15 +10,17 @@ public enum Control {
 		this.c = c;
 	}
 	private Printer printer = new Printer();
+	
+	public PrintHandler getPrintHandler() {
+		return new PrintHandler();
+	}
+	
 	private class PrintHandler implements EventHandler<ActionEvent> {
 		@Override
 		public void handle(ActionEvent event) {
 			printer.print(c.getText());
 			c.setText("Data printed to console");
 		}
-	}
-	public PrintHandler getPrintHandler() {
-		return new PrintHandler();
 	}
 	
 }
