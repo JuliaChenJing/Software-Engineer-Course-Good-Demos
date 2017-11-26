@@ -1,5 +1,5 @@
 
-package sqlinjection;
+package sql_injection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -14,7 +14,6 @@ import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
@@ -25,7 +24,7 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class SqlInject extends Application {
+public class SSNLookupGUI extends Application {
 	static final String userInput = "' or '1'='1"; //delete outer quotes when entering in gui
     public static void main(String[] args) {
         launch(args);

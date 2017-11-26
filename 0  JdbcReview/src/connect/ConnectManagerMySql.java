@@ -9,13 +9,13 @@ public class ConnectManagerMySql {
 	}
 	
 	private static final String DB_URL_PROD 
-		= "jdbc:mysql:///ProductsDb";
+		= "jdbc:mysql:///ProductsDb";//in mysql
 	private static final String DB_URL_ACCT 
-		= "jdbc:mysql:///AccountsDb";
+		= "jdbc:mysql:///AccountsDb";//in mysql
 	//user name
-	private static final String USERNAME = "root";
+	private static final String USERNAME = "root";//mysql user name
 	//password
-	private static final String PASSWORD = "";
+	private static final String PASSWORD = "";//mysql password
 	public static Connection getConnection(DB db) throws SQLException {	
 		Connection conn = null;
 		switch(db) {

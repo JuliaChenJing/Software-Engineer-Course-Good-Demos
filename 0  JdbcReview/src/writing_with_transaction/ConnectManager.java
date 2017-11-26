@@ -1,4 +1,4 @@
-package writingwithtransaction;
+package writing_with_transaction;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

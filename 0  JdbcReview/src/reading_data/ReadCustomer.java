@@ -1,4 +1,4 @@
-package readingdata;
+package reading_data;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

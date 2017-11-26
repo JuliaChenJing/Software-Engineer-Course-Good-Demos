@@ -1,4 +1,4 @@
-package readingdata;
+package reading_data;
 
 import java.sql.SQLException;
 import java.util.List;
