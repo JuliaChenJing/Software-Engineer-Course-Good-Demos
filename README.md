@@ -10,8 +10,8 @@
 2. Exercise_LoginAndAuthorization_Soln 
 
 •Check the PDF.
-     userid = 1   password = 1  private
-     userid = 2   password = 2  admin
+    • userid = 1   password = 1  private
+    • userid = 2   password = 2  admin
 
 
 2.5 Exercise_Callback_Solution	
