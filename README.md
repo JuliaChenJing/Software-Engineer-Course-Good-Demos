@@ -1,6 +1,6 @@
 # Software-Engineering
 
-1. JdbcReview	: Check the screenshot.   /nNeed to check the build path and turn on mysql.   A good layered JDBC demo with JavaFX. 
+1. JdbcReview	: Check the screenshot.   Need to check the build path and turn on mysql.   A good layered JDBC demo with JavaFX. 
 
 2. Exercise_LoginAndAuthorization_Soln   Check the PDF.
      userid = 1   password = 1  private
