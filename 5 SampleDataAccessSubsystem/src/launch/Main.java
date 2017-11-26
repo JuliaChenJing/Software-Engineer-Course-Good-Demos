@@ -12,7 +12,7 @@ public class Main {
 		try {
 			System.out.println("1   doInsert--------------------");
 			doInsert();
-			System.out.println("2   doIUpdate--------------------");
+			System.out.println("2   doUpdate--------------------");
 			doUpdate();
 			System.out.println("3  doDelete--------------------");
 			doDelete();
@@ -27,7 +27,7 @@ public class Main {
 	}
 	private static void doRead() throws DatabaseException {
 		DbClassAddress dbclass = new DbClassAddress();
-		List<Address> addresses = dbclass.getCustAddresses("1");
+		List<Address> addresses = dbclass.getCustAddresses("2");
 		addresses.forEach(addr -> System.out.println(addr));
 	}
 	private static void doInsert() throws DatabaseException {
