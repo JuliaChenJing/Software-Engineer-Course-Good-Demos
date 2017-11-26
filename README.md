@@ -6,11 +6,11 @@
 
 2. Exercise_LoginAndAuthorization_Soln
 
-2. 5 Exercise_Callback_Solution	
+2.5 Exercise_Callback_Solution	
 
 3. Exercise_RefactorControl_Soln	
 
-4. ArchAnFXRules	copied from mumstudy	
+4. ArchAnFXRules
 
 5. SampleDataAccessSubsystem		
 
