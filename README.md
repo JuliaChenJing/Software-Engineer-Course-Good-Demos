@@ -1,52 +1,48 @@
-# Java_Library
+# Software-Engineer-Course-Good-Demos
 
-Spring MVC Showcase
------
-Demonstrates the capabilities of the Spring MVC web framework through small, simple examples.
-After reviewing this showcase, you should have a good understanding of what Spring MVC can do and get a feel for how easy it is to use.
-Includes project code along with a supporting slideshow and screen cast.
+## 1. JdbcReview	:
 
-In this showcase you'll see the following in action:
--------
-* The simplest possible @Controller
-* Mapping Requests
-* Obtaining Request Data
-* Generating Responses
-* Message Converters
-* Rendering Views
-* Type Conversion
-* Validation
-* Forms
-* File Upload
-* Exception Handling
+* Check the screenshot. 
+* Using user first name to get the ssn nunmber  
+* Need to check the build path and turn on mysql.   
+* A good JDBC demo with JavaFX. 
+---
 
-To get the code:
--------------------
-Clone the repository:
+## 2. Exercise_LoginAndAuthorization_Soln 
 
-    $ git clone git://github.com/SpringSource/spring-mvc-showcase.git
+* Check the PDF. 
+* A good demo about all you need to know on Login and Authorization using Java
+* userid = 1   password = 1  private
+* userid = 2   password = 2  admin
+---
 
-If this is your first time using Github, review http://help.github.com to learn the basics.
+## 2.5 Exercise_Callback_Solution	
 
-To run the application:
--------------------	
-From the command line with Maven:
+* Check the pdf.
+* Check Alice's and Joe's teacher report and grade by logging in. 
+* Their user name and password are their names.
+* Callbacks are most easily described in terms of the telephone system. A function call is analogous to calling someone on a telephone, asking her a question, getting an answer, and hanging up; adding a callback changes the analogy so that after asking her a question, you also give her your name and number so she can call you back with the answer.
 
-    $ cd spring-mvc-showcase
-    $ mvn tomcat7:run [-Dmaven.tomcat.port=<port no.>] (In case 8080 is busy] 
+---
+## 3. Exercise_RefactorControl_Soln	
+* Check the comments from professor in UI classes.
+* There are 3 solutions on the discussion of UI, controller and printer. The later demo is loosely coupled and controller does not even know the existance of ui using call back function.
+* The design is made easier by requiring Control to be a singleton. Since a controller
+ will typically be responsible for several
+ windows, and it may have to manage relationships between data among many of these, it is
+ often a good idea for a controller to be a singleton.
 
-or
+---
+## 4. ArchAnFXRules
+* Need to check the build path.
+* A small working E-Bazaar demo about rules engine.
+* The rules file is .clp. It is JEZZ-the rule engine for the Java Platform.
 
-In your preferred IDE such as SpringSource Tool Suite (STS) or IDEA:
+---
+## 5. SampleDataAccessSubsystem		
+* Need to check the build path.
+---
+## 5.5 Exercise_DataAccessSubsystem
 
-* Import spring-mvc-showcase as a Maven Project
-* Drag-n-drop the project onto the "SpringSource tc Server Developer Edition" or another Servlet 2.5 or > Server to run, such as Tomcat.
+---
 
-Access the deployed web application at: http://localhost:8080/spring-mvc-showcase/
-
-Note:
--------------------
-
-This showcase originated from a [blog post](http://blog.springsource.com/2010/07/22/spring-mvc-3-showcase/) and was adapted into a SpringOne presentation called [Mastering MVC 3](http://www.infoq.com/presentations/Mastering-Spring-MVC-3).
-
-A screen cast showing the showcase in action is [available in QuickTime format](http://s3.springsource.org/MVC/mvc-showcase-screencast.mov).
