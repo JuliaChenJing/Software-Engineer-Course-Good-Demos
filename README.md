@@ -12,7 +12,7 @@
 
 4. ArchAnFXRules	copied from mumstudy	
 
-5. SampleDataAccessSubsystem	copied from mumstudy	
+5. SampleDataAccessSubsystem		
 
 5.5 Exercise_DataAccessSubsystem
 
