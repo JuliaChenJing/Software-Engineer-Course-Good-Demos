@@ -1,8 +1,6 @@
 # Software-Engineering
 
-0. JdbcReview	
-   Need to check the build path. 
-   A good layered JDBC demo.
+0. JdbcReview	: Need to check the build path.   A good layered JDBC demo.
 
 1. GuiShellFXDbSoln	
 
